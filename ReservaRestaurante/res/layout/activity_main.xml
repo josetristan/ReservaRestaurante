@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btLoguearse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btConsultarRestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultar restaurante" />
+
+    <Button
+        android:id="@+id/btConsularReserva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultar reserva" />
+
+    <Button
+        android:id="@+id/btConsultarOferta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultar ofertas" />
+
+    <Button
+        android:id="@+id/btNuevaReserva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nueva reserva" />
+    
+    <Button
+        android:id="@+id/btConsultarUsuarioPorID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consultar usuario por ID" />
+    
+     <Button
+        android:id="@+id/btRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar para PUSH" />
+
+</LinearLayout>
